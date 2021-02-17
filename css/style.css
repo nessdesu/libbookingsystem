@@ -1,0 +1,121 @@
+﻿body {
+}
+
+/*Giris Sayfası Tasarımı*/
+.girisSayfasi {
+    text-align: center;
+    background-image: url(../images/girisSayfasi.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: #61381B;
+    background-size: auto;
+    height: 350px;
+    position: relative;
+    z-index: -1;
+}
+
+
+.girisSayfasiTxt{
+    position: relative;
+    font-family: 'Century Gothic';
+    font-size: 12px;
+}
+
+/*PANEL TASARIMI*/
+.panel {
+    background-image: url(../images/header.jpg);
+    background-position: center bottom;
+    box-shadow: 0px 2px 5px 1px #4387B5 !important;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #EDF9FF; height: 300px;
+    position: relative;
+}
+
+.panelTxt{
+    text-align:center;
+    font-family:'Century Gothic';
+    font-size:30px;
+    font-weight: 600;
+    position: absolute;
+    margin-left:45%;
+}
+
+/*kullanici giriş sayfasi tasarimi*/
+.header {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    height: 250px;
+    border-radius: 2px;
+    font-size: 15px !important;
+    line-height: 40px;
+    text-decoration: none;
+    color: dimgrey;
+}
+
+
+.textBoxPosition{
+    margin-bottom:10px;
+    border-radius: 8px;
+}
+
+.btn {
+    height: 90px;
+    width: 100%;
+    border: 1px solid;
+    border-color: #ddd;
+    margin: 20px;
+    font-size: 18px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    background-color: #EDF9FF;
+    
+}
+
+.littleBtn {
+    height: 50px;
+    width: 100%;
+    border: 1px solid;
+    border-color: #ddd;
+    margin: 20px;
+    font-size: 18px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    background-color: #EDF9FF;
+}
+
+.tittle {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #fbfbfb;
+    padding: 0 40px;
+    overflow: hidden;
+    background-image: url(../images/footer.png);
+    background-position-x: 80%;
+    height: 155px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.footer1 {
+    
+    padding: 0 40px;
+    overflow: hidden;
+    height: 155px;
+    margin-top: 155px;
+    text-align: center;
+}
+
+.footer2{
+    
+    padding: 0 40px;
+    overflow: hidden;
+    background-image: url(../images/footer2.png);
+    background-position-x: 80%;
+    height: 155px;
+    margin-top: 155px;
+    text-align: center;
+}
